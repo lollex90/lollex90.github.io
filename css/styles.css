@@ -1,43 +1,128 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+
+header {
+    display: flex;
+    align-items: center;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.project-container {
+    display: flex;
+    align-items: normal;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    text-align: justify;
+}
+.biography {
+    flex: 1;
+    margin-left: 20px;
+    text-align: justify;
+    font-size: 0.8em;
+}
+
+nav ul,
+footer ul {
+    font-family: 'Garamond';
+    padding: 0;
     list-style: none;
     font-weight: bold;
+    margin: 0;
 }
-nav ul li, footer ul li {
+
+nav ul li,
+footer ul li {
     display: inline;
-    margin-right: 20px;
 }
+
+nav {
+    position: absolute;
+    top: 1;
+    right: 0;
+    margin-right: 5%;
+    margin-top: 60px;
+}
+
 a {
     text-decoration: none;
     color: #999;
+    margin: 0 10px;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
+.link-inside {
+    color: blue;
+    margin:0;
+}
+
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Georgia';
+    margin-bottom: 0;
 }
+
+h2 {
+    font-size: 1.8em;
+    font-family: 'Serif';
+    margin-bottom: 10;
+    align-self: normal;
+    text-decoration:none;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-family: 'Serif';
+    margin-bottom: 10;
+    align-self: normal;
+    text-decoration:none;
+    font-weight: normal;
+    float: right;
+}
+
+h2, h3 {
+    display: inline;
+}
+
 p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 1.4em;
     color: #333;
 }
+
 footer {
     border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    font-size: 0.8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
 ul.posts li {
     list-style: none;
+}
+
+.personal-image {
+    max-width: 350px;
+    width: 100%;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.project-image {
+    max-width: 350px;
+    width: 100%;
+    margin-left: 40px;
+    margin-right: 20px;
+    
 }
