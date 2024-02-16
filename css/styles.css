@@ -55,7 +55,7 @@ a:hover {
 .link-inside {
     color: blue;
     margin: 0;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 /* Headings */
@@ -76,13 +76,13 @@ h2, h3 {
 }
 
 h3 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     float: right;
 }
 
 /* Paragraphs */
 p {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #333;
 }
 
