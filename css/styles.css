@@ -55,17 +55,18 @@ a:hover {
 .link-inside {
     color: blue;
     margin: 0;
+    font-size: 0.8rem;
 }
 
 /* Headings */
 h1 {
-    font-size: 3rem;
+    font-size: 5rem;
     font-family: 'Georgia';
     margin-bottom: 0;
 }
 
 h2, h3 {
-    font-size: 1.8rem;
+    font-size: 2.4rem;
     font-family: 'Serif';
     margin-bottom: 10px;
     align-self: normal;
@@ -75,14 +76,13 @@ h2, h3 {
 }
 
 h3 {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     float: right;
 }
 
 /* Paragraphs */
 p {
-    font-size: 1rem;
-    line-height: 1.4rem;
+    font-size: 0.8rem;
     color: #333;
 }
 
