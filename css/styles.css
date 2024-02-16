@@ -17,7 +17,7 @@ header, .container, .project-container {
 .biography {
     flex: 1;
     margin-left: 20px;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
 }
 
 nav ul, footer ul {
@@ -53,9 +53,9 @@ a:hover {
 }
 
 .link-inside {
-    color: red;
+    color: blue;
     margin: 0;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 /* Headings */
@@ -82,7 +82,7 @@ h3 {
 
 /* Paragraphs */
 p {
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: #333;
 }
 
